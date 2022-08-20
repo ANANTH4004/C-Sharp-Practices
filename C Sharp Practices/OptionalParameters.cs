@@ -10,7 +10,7 @@ namespace C_Sharp_Practices
     {
         static void Main(string[] args)
         {
-            #region params keyword
+           
             int[] nums = { 10, 20, 20 };
             Console.WriteLine("Enter First Number :");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -22,6 +22,7 @@ namespace C_Sharp_Practices
             Console.WriteLine("result : {0}", ans);
 
         }
+        #region params additional(int , int)
         static int addition(int i, int j, params int[] nums)
         {
             int result = i + j;
@@ -32,10 +33,9 @@ namespace C_Sharp_Practices
                     result += num;
                 }
             }
-
             return result;
+        } 
+        #endregion
 
-            #endregion}
-        }
     }
 }

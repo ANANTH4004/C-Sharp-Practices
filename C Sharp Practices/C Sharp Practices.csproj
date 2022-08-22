@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Practices.GenericDemo</StartupObject>
+    <StartupObject>C_Sharp_Practices.demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayDemo.cs" />
+    <Compile Include="demo.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="HashDemo.cs" />
     <Compile Include="OptionalParameters.cs" />

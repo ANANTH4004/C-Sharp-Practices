@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Practices.StringMethods</StartupObject>
+    <StartupObject>C_Sharp_Practices.GenericDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayDemo.cs" />
+    <Compile Include="GenericDemo.cs" />
+    <Compile Include="HashDemo.cs" />
+    <Compile Include="HashtableDemo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HashtableDemo.Designer.cs">
+      <DependentUpon>HashtableDemo.cs</DependentUpon>
+    </Compile>
     <Compile Include="OptionalParameters.cs" />
+    <Compile Include="QueueDemo.cs" />
+    <Compile Include="StackDemo.cs" />
     <Compile Include="StringMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,7 +10,7 @@ namespace C_Sharp_Practices
     {
         static void Main(string[] args)
         {
-           
+
             int[] nums = { 10, 20, 20 };
             Console.WriteLine("Enter First Number :");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -20,11 +20,13 @@ namespace C_Sharp_Practices
             Console.WriteLine("result : {0}", ans1);
             int ans = addition(a, b, nums);
             Console.WriteLine("result : {0}", ans);
+            print("anand", "love" , 11);
 
         }
-        #region params additional(int , int)
+        #region params addition(int , int)
         static int addition(int i, int j, params int[] nums)
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             int result = i + j;
             if (nums != null)
             {
@@ -36,6 +38,13 @@ namespace C_Sharp_Practices
             return result;
         } 
         #endregion
-
+        static void print(params object[] det)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            foreach (var item in det)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }

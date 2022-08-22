@@ -49,12 +49,6 @@
     <Compile Include="ArrayDemo.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="HashDemo.cs" />
-    <Compile Include="HashtableDemo.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="HashtableDemo.Designer.cs">
-      <DependentUpon>HashtableDemo.cs</DependentUpon>
-    </Compile>
     <Compile Include="OptionalParameters.cs" />
     <Compile Include="QueueDemo.cs" />
     <Compile Include="StackDemo.cs" />

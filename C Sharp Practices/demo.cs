@@ -27,14 +27,13 @@ namespace C_Sharp_Practices
           
             for (int i = 0; i < nums.Length; i++)
             {
-                int b = nums[i];
-                int a = target - b;
+                int a = target - nums[i];
                 
                 if (dic.ContainsKey(a))
                 {
                     return new List<int> { dic[a], i };
                 }
-                dic.Add(b, i);
+                dic.Add(nums[i], i);
             }
             return new List<int> { };
         }

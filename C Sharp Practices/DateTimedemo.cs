@@ -36,6 +36,7 @@ namespace C_Sharp_Practices
             Console.WriteLine("age in days " + d.Subtract(b).Days);
             Console.WriteLine(b.DayOfWeek);
 
+
         }
     }
 }

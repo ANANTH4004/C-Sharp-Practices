@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Practices.ObjectArrayDemo</StartupObject>
+    <StartupObject>C_Sharp_Practices.ObjectListDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,7 @@
     <Compile Include="HashDemo.cs" />
     <Compile Include="LinkedListDemo.cs" />
     <Compile Include="ObjectArrayDemo.cs" />
+    <Compile Include="ObjectListDemo.cs" />
     <Compile Include="OptionalParameters.cs" />
     <Compile Include="QueueDemo.cs" />
     <Compile Include="StackDemo.cs" />

@@ -27,12 +27,12 @@ namespace Hr
             get { return city; }
             set { city = value; }
         }
-        private int bs;
+        private int b;
 
-        public int getBs
+        public int getB
         {
-          get { return bs; }
-           private set { bs = value; }
+          get { return b; }
+           private set { b = value; }
         }
 
         public double GrossSalary { get; private set; }
@@ -51,6 +51,7 @@ namespace Hr
             }
             //Console.WriteLine("Gross Salary=" +  grosssSal);
             GrossSalary = grosssSal;
+            b = bs;
 
         }
 

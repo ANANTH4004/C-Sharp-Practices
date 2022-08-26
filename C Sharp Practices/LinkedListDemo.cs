@@ -10,7 +10,10 @@ namespace C_Sharp_Practices
     {
         static void Main(string[] args)
         {
-            LinkedListTypeInt();
+            //LinkedListTypeInt();
+            LinkedList<Student> slist = new LinkedList<Student>();
+
+
         }
 
         private static void LinkedListTypeInt()
@@ -25,5 +28,19 @@ namespace C_Sharp_Practices
                 Console.WriteLine(item);
             }
         }
+    }
+    public class Student
+    {
+        internal string name;
+        internal int rollno;
+        internal Student next;
+        public Student(string name,int rollno)
+        {
+            this.name = name;
+            this.rollno = rollno;
+            next = null;
+        }
+
+
     }
 }

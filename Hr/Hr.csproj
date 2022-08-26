@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{90CFCBB8-5525-4D31-AA02-C9008AC4793D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>C_Sharp_Practices</RootNamespace>
-    <AssemblyName>C Sharp Practices</AssemblyName>
+    <ProjectGuid>{4181F0A2-FD47-46C7-928B-F6D7E516C9F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hr</RootNamespace>
+    <AssemblyName>Hr</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,16 +23,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>C_Sharp_Practices.ObjectArrayDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,31 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayDemo.cs" />
-    <Compile Include="ArraysDemo.cs" />
-    <Compile Include="DateTimedemo.cs" />
-    <Compile Include="demo.cs" />
-    <Compile Include="ExceptionDemo.cs" />
-    <Compile Include="Exceptionmain.cs" />
-    <Compile Include="GenericDemo.cs" />
-    <Compile Include="HashDemo.cs" />
-    <Compile Include="LinkedListDemo.cs" />
-    <Compile Include="ObjectArrayDemo.cs" />
-    <Compile Include="OptionalParameters.cs" />
-    <Compile Include="QueueDemo.cs" />
-    <Compile Include="StackDemo.cs" />
-    <Compile Include="StringDemo.cs" />
-    <Compile Include="StringMethods.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Hr\Hr.csproj">
-      <Project>{4181f0a2-fd47-46c7-928b-f6d7e516c9f3}</Project>
-      <Name>Hr</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

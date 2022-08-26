@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Practices.StringDemo</StartupObject>
+    <StartupObject>C_Sharp_Practices.LinkedListDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,12 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayDemo.cs" />
+    <Compile Include="ArraysDemo.cs" />
     <Compile Include="DateTimedemo.cs" />
     <Compile Include="demo.cs" />
     <Compile Include="ExceptionDemo.cs" />
     <Compile Include="Exceptionmain.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="HashDemo.cs" />
+    <Compile Include="LinkedListDemo.cs" />
     <Compile Include="OptionalParameters.cs" />
     <Compile Include="QueueDemo.cs" />
     <Compile Include="StackDemo.cs" />

@@ -10,11 +10,11 @@ namespace C_Sharp_Practices
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Enter Date");
+            ;
             DateTime d = new DateTime();
-           // DateTime b = new DateTime();
+          
             d = DateTime.Now;
-            //d = Convert.ToDateTime(Console.ReadLine());
+            
             Console.WriteLine(d);
             Console.WriteLine("Long Date " + d.ToLongDateString());
             Console.WriteLine("Long Date " + d.ToBinary());
@@ -27,7 +27,7 @@ namespace C_Sharp_Practices
             Console.WriteLine( "Day of year "+ d.DayOfYear);
             Console.WriteLine("=================================");
             Console.WriteLine("Enter DOB");
-            // b = Convert.ToDateTime(Console.ReadLine());
+           
            DateTime b = new DateTime(2001, 05, 11);
             Console.WriteLine("Age :"+ (d.Year-b.Year)) ;
             Console.WriteLine(b.DayOfYear);

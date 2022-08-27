@@ -20,6 +20,7 @@ namespace C_Sharp_Practices
             emp2.getEmpId = 2;
             emp2.getEmpName = "varun";
             elist.Add(emp2);
+            elist.Sort();
             foreach (var item in elist)
             {
                 Console.WriteLine(item.getEmpId);

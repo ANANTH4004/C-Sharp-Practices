@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Sharp_Practices.StringDemo</StartupObject>
+    <StartupObject>C_Sharp_Practices.Link</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,8 +51,11 @@
     <Compile Include="demo.cs" />
     <Compile Include="ExceptionDemo.cs" />
     <Compile Include="Exceptionmain.cs" />
+    <Compile Include="FilesDemo.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="HashDemo.cs" />
+    <Compile Include="Link.cs" />
+    <Compile Include="LinkedListImplemetation.cs" />
     <Compile Include="OptionalParameters.cs" />
     <Compile Include="QueueDemo.cs" />
     <Compile Include="StackDemo.cs" />
